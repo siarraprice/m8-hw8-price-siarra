@@ -16,6 +16,11 @@
   color: #fff;
   font-size: 18px;
 }
+
+.main-menu-labels:hover {
+  background-color: lightblue;
+  color: #08254f;
+}
 /* Sub Menu Styling */
 .sub-menu {
   padding-left: 0;
@@ -30,14 +35,13 @@
   box-sizing: border-box;
 }
 
-#productsDropdown.active {
-  display: block;
+.sub-menu:hover {
+  background-color: lightblue;
+  color: #08254f;
 }
 
-#servicesDropdown.active {
-  display: block;
-}
-
+#productsDropdown.active,
+#servicesDropdown.active,
 #companyDropdown.active {
   display: block;
 }

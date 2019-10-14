@@ -5,12 +5,22 @@ function openMenu1() {
   document.getElementById("productsDropdown").classList.toggle("active");
 }
 
+
+
+
+
+
 //services menu
 document.getElementById("services").addEventListener("mouseover", openMenu2);
 
 function openMenu2() {
   document.getElementById("servicesDropdown").classList.toggle("active");
 }
+
+
+
+
+
 
 //company menu
 document.getElementById("company").addEventListener("mouseover", openMenu3);
