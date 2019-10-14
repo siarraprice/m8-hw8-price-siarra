@@ -33,3 +33,11 @@
 #productsDropdown.active {
   display: block;
 }
+
+#servicesDropdown.active {
+  display: block;
+}
+
+#companyDropdown.active {
+  display: block;
+}
