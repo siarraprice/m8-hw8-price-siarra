@@ -29,3 +29,7 @@
   border: 2px solid #fff;
   box-sizing: border-box;
 }
+
+#productsDropdown.active {
+  display: block;
+}
